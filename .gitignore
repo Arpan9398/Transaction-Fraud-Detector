@@ -1,0 +1,30 @@
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Data (full Kaggle dataset is ~150 MB; download it yourself)
+data/creditcard.csv
+data/*.zip
+
+# Trained models and generated reports
+models/*
+!models/.gitkeep
+reports/*
+!reports/.gitkeep
+!reports/figures/
+reports/figures/*
+!reports/figures/.gitkeep
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
